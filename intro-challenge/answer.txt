@@ -1,0 +1,12 @@
+cd Onedrive/dbwebb-kurser/python/me/intro-challenge/movies
+tree .
+sudo mv missing_plot_1.txt The_Dark_Knight/plot.txt
+sudo mv missing_plot_2.txt Pulp_Fiction/plot.txt
+rm -i Indiana_Jones_and_the_Last_Crusade/The_Holy_Grail.dat
+rm -r -i Pulp_Fiction/cheeseburger
+
+tree . -a
+sudo mv Comedy/.Gabe_hudson Comedy/Gabe_hudson
+mv Fiction/Matt_Haig/The_Hidden_City Fantasy/David_Eddings/The_Tamuli
+mv Fantasy/Arcanum_Unbounded_The_Cosmere_Collection Fantasy/Brandon_Sanderson/The_Stormlight_Archive
+cp -r Comedy/Scott_Meyer Fantasy/

@@ -1,0 +1,96 @@
+{
+    "details": "Generated for pamo18 at 2018-10-01 08:33:38.",
+    "key": "ed50e96a55b05f81950c61979b83c41e",
+    "summary": {
+        "questions": 14,
+        "points": 18,
+        "pass": 12,
+        "passdistinct": 18
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "2.1": 1,
+        "2.2": 1,
+        "2.3": 1,
+        "2.4": 1,
+        "2.5": 1,
+        "2.6": 1,
+        "2.7": 1,
+        "3.1": 3,
+        "3.2": 3
+    },
+    "answers": {
+        "1.1": [
+            "cougar",
+            "flute",
+            "cougar",
+            "Sheen"
+        ],
+        "1.2": [
+            "flute",
+            "purple",
+            "donkey",
+            "guitar",
+            "drums",
+            "piano",
+            "bass"
+        ],
+        "1.3": [
+            "flute",
+            "guitar",
+            "cord",
+            "piano",
+            "bass"
+        ],
+        "1.4": [
+            "wall",
+            "table",
+            "floor",
+            "desk",
+            "chair"
+        ],
+        "1.5": [
+            "table",
+            "wall",
+            "desk",
+            "chair"
+        ],
+        "2.1": 173,
+        "2.2": 97,
+        "2.3": "The grass is growing",
+        "2.4": [
+            "dvd",
+            "green",
+            "purple",
+            "vhs",
+            "cd"
+        ],
+        "2.5": false,
+        "2.6": true,
+        "2.7": [
+            "s",
+            "a",
+            "e",
+            "d",
+            "c"
+        ],
+        "3.1": [
+            10,
+            50,
+            120,
+            980,
+            3690
+        ],
+        "3.2": [
+            377,
+            98,
+            13,
+            12,
+            9
+        ]
+    }
+}

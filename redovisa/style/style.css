@@ -1,0 +1,72 @@
+/**
+ * Style
+ */
+html {
+    background-image: linear-gradient(to right, black, grey);
+    padding:  2em;
+}
+
+body {
+    max-width: 980px;
+    margin: 8px auto;
+    color: white;
+    overflow-y: scroll;
+    background: black;
+    font-family: Helvetica;
+    border-radius: 15px;
+}
+
+header {
+    height: 125px;
+    background-image: linear-gradient(to bottom, grey, black);
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+nav {
+    padding-bottom: 1em;
+    padding-left: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #666;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.name {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+article {
+    padding: 1em;
+    overflow: auto;
+}
+
+.ascii {
+    margin: 0;
+    float: right;
+    padding-right: 5em;
+}
+
+.Main {
+    font-size: 1.3em;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}

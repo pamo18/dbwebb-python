@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>Redovisning av kursmoment | python</title>
+<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Redovisning av kursmoment</h1>
+    <p>Detta är redovisningssidan för kursen Programmering och Problemlösning i Python</p>
+    <nav>
+        <a href="me.html">Me</a> |
+        <a href="redovisning.html">Redovisning</a> |
+        <a href="om.html">Om</a>
+    </nav>
+</header>
+
+<article class="redovisning">
+
+<section>
+<h2>Kmom01</h2>
+<p>Genom att komma igång med Python kmom01 så har jag kunnat testa labbmiljön så att allting fungerar som den ska.  Jag jobbar mest på en Mac dator, men har tillgång till Windows och Linux om det behövs.  Jag använder Atom som texteditor men har tidigare använt Coda och Sublime Text, än så länge tycker jag Atom fungerar minst lika bra.</p>
+
+<p>Jag har koll på hur DBWebb och Python fungerar i terminalen, där jag har synkroniserat filerna lokalt till studentservern samt använt validerings funktionen för att testa min kod.  Eftersom jag har använt Mac i många år så är terminalen ett naturligt verktyg förr mig för att kunna göra saker sanbbare eller komma åt viktiga inställningar som inte är tillgängliga annars.  Jag uppskattade utmaningen 'Intro-challenge' eftersom jag var tvungen att undersöka de olika kommandon för att lyckas så effektivt som möjligt, då lärde jag mig en hel del.</p>
+
+<p>Jag har tidigare efarenhet inom HTML, PHP, CSS, Javscript samt VBA och känner mig relativt bekväm inom Python också, som jag aldrig använt förrut.
+Med min tidigare efarenhet känner jag till statements, arguements, variables, loops mm.  Till exempel, en <span style="font-weight:bold; text-decoration:underline">variabel</span> används för att lagra information i datorns minne för att senare använda i beräkningar, omvandlingar eller manipuleras för att leverera det önskade resultatet.  Den används också för att förenkla förståelse av koden och vad den ska göra.</p>
+
+<p>Än så länge har allting gått problemfritt men jag vet att vissa saker kommer ta längre tid än planerat, då jag vill jobba på med kursarna för att kunna har mer tid över när det behövs mest.  Jag uppskattar boken 'Pyton for everybody', väldigt bra skrivit och intressant.  På DBwebbs YouTube kanaler finns det många videor som är tydliga och informativa, dessa kommer jag utnyttja mycket under programmet.</p>
+
+<p>Jag kommer försöka programmera så mycket som möjligt för att testa nya saker och bli bättre på det jag redan kan.  Jag känner redan nu att jag kommer trivas på programet Webbprogrammering hos BTH.</p>
+</section>
+
+
+<section>
+<h2>Kmom02</h2>
+<p>Kmom02 handlar mest om Conditional execution och Iteration, där jag skapade ett program med flera olika val.  Med varje val finns det olika uppdrag kopplat till en fråga som ska ge ett resultat baserat på vad användaren svarar.  Då behövdes det mycket mer kod än kmom01 för att leverera den bästa upplevelsen för användaren.  Jag försökte implementera Conditions för alla eventuella svar en användare kan ge, tex om programmet vill ha en siffra men användaren skriver text, får användaren ett meddelande att skriva enbart siffror.  Jag känner att jämfört med andra programmeringsspråk är Python relativt enkelt att skriva och förstå, väldigt likt det språk man talar.</p>
+
+<p>Jag har jobbat med bra indrag och undvikit onödig kod vilket ger en struktur som är lättare att läsa och förstå. Detta är viktigt framförallt när man debuggar eller ska komplettera med mer kod senare.</p>
+
+<p>Loopar och villkor används ofta i programmet, det känner jag att jag har greppat ordentligt.  Jag försöker tänka som en dator, där allt är baserat på sant eller falsk.  En loop används för att cykla genom data som tex en sträng, för att kalkylera ett svar baserat på olika frågor och sedan styras vidare till nästa fråga.  Varje cykel används samma frågor fast med nya data, tex nästa bokstav i ett ord.  När alla frågor är klara och all data har passerat flödet får användaren sitt svar.  Blir det fel någonstans så meddelas användaren för att sedan åtgärda problemet.</p>
+
+<p>Skillnaden med en while-loop och for-loop är att en for-loop har ett bestämt slut och en while-loop har ett obestämt slut.  En for-loop slutar när ett bestämt antal slingor är klar.  While-loopen fortsätter till ett resultat är nått, där man inte vet hur många slingor som behövs för att nå resultatet.  Om inget resultat är nått blir det en oändlig loop, då måste man stänga av datorn eller avsluta program på annat sätt.</p>
+
+<p>Validerings verktyget Plint funkar väldigt bra och ger ett tydligt svar vart problemen ligger.
+Oftast har man missat något enkelt eller skrivit fel, men ibland lär man sig något nytt.  Att lägga till Docstrings i början för att förklara vad programmet gör, samt ihop med funktioner för att förklara vad den gör, är viktigt.  Att undersöka ett problem för att sedan rätta till bygger på framtidens kompetens.</p>
+
+<p>Jag tycket att själva uppgifterna är klara och tydliga samt relativt enkla att göra.  Däremot var den sista extra uppgiften, Balance brackets, en svårare utmaning.  Då var jag tvungen att forska en del och kom fram till att skapa en Class som en mall för att sedan skapa en Stack (Array).  En stack är som en hög där man lägger ovanpå varje värde, tex ett sträng brackets.  En loop används för att cykla genom alla brackets, där öppna brackets läggs på högen och stängda brackets tas bort från högen.  Samtidigt som det tas bort från högen ska den jämföras med den som ligger precis under, för att se om den är ett par.  Ingen par betyder ingen balance.</p>
+</section>
+
+
+
+<!-- Redovisningstext för kmom -->
+<section>
+<h2>Kmom03</h2>
+<p>Att utnyttja funktioner inom Python, eller de flesta programmerings språk, ger möjligheten att spara tid och onödig kodning.  Man skapar en mall som kan acceptera olika parametrar, om det så behövs, för att sedan returnera ett värde eller resultat för vidare användning.  Funktioner kan kallas flera gånger eller även inom en annan funktion.  Om funktionen returnerar ett värde eller resultat heter den en Fruitfull Function och kan manipuleras igen om så önskas.</p>
+
+<p>Jag har tidigare använt enkla funktioner inom JavaScript så jag visste att möjligheten fanns.
+Man använder funktioner för att slippa skriva samma kod om och om, men också för att dela upp strukturen, där funktionen körs bara när man kallar den.  Scope är viktigt att tänka på för att man kommer inte åt variabler som är definierade inom en funktion, globalt.  Vill man återanvända kod, tex att jämföra två strängar för att se om det innehåller samma bokstäver, skapar man en funktion för att sedan kalla när och hur ofta man vill.  Det blir också mycket lättare att läsa koden då.</p>
+
+<p>Nu har jag byggt ut mitt Marvin program ytterligare, samt gjort om varje menyval till en funktion.  Denna uppgift gick väldigt bra och kändes som ett naturligt steg att följa, för nu kan man bygga ut Marvin ännu mer utan att den blir över komplicerat att läsa eller återanvända delar om man behöver.  Uppgiften ”Python med funktioner” gav bra träning inför Marvin uppgiften och var relativt enkel att utföra.</p>
+
+<p>Att använda en funktion inom en funktion, Menyval 11 och 3, var ett bra sätt att förstå hur och när man kan återanvända koden.  Det är smidigt att kunna utnyttja redan skapade funktioner inom en annan funktion för då slipper man repetera kod.  Man lärde sig några av Pythons inbyggda funktioner också , som sorted() och lower().  Det gäller att kommer ihåg vad det finns för inbyggda funktioner först för att bedöma om man behöva skapa en ny.</p>
+
+<p>Boken Python for Everybody förklarade tydligt varför funktioner behövs och när man använder dem.  De inbyggda Math funktioner, som random, kommer användas ofta framöver tror jag.  Videon förklarar den viktiga detaljen att en funktion bara körs när man kallar den.</p>
+
+<p>Jag genomförde alla extra uppgifter för att utmana mig så mycket som möjligt, man lär sig bäst då.  I lab3 var binary frågan ett bra sätt att lära sig hur man kan använda slice() funktionen med ett objekt.  Kmom03 kändes bra, lagom svårt men roligt.</p>
+</section>
+
+
+
+<!-- Redovisningstext för kmom -->
+<section>
+<h2>Kmom04</h2>
+<p>Inom kmom04 har jag jobbat med moduler, lagrade funktioner i en fil som kan importeras efter behov och användas inom olika program.  Man slipper definiera samma funktioner om och om igen samtidigt som man delar upp programmet till många mindre delar, vilket blir lättare att förstå och utveckla vidare.</p>
+
+<p>Strukturen på en modul är precis som en vanlig funktion fast enastående i en separat fil.  Då är det bara att importera den efter behov.  Det känns mycket lättare att dela upp programmet så här eftersom man undviker en lång fil med en massa kod.  Man kan utnyttja moduler inom andra program också, som att sätta ihop ett pussel med många olika bitar.  Jag har delat upp mitt Marvin program till olika filer nu, där ’Main’ filen kontrollerar presentationen och ’Marvin’ filen blir en modul där alla funktioner är lagrade.</p>
+
+<p>Att jobba med filer, som tex en text fil, skapar en helt ny dimension till ett projekt.  Man kan läsa igenom alla rader på en fil, ändra, ta bort eller lägga till ny data om det så behövs.  En text fil funkar i alla textläsare, utan att man har Python installerat,  så det blir lättillgängligt också.  Jag har utvecklar mitt Marvin program ytterligare med text filer som är parat ihop med moduler,  som väljer ut slumpmässigt en text linje för att skriva ut i programmet.  Här finns det olika svar beroende på vad man skriver, tex skriver man en sträng som inkluderar bl.a.  "hello" så svarar Marvin med en hälsning tillbaka.  Samma sak händer om man skriver en sträng som inkluderar ordet "lunch", då svarar Marvin med olika lunch föreslag.  Det är mycket lättare att skapa en funktion för att hämta en linje från en text fil än att fast programmera allting.  När man använder funktionen "open()" är det viktigt att skicka med rätt argument, tex "open(filnamn, 'a')" lägger till ny data på slutet av filen, eller "w" som ersätter allt i filen.</p>
+
+<p>Kmom04 gick smidigt men var samtidigt lärorik, att kunna jobba med externa textfiler och knyta ihop olika moduler till ett program kommer vara en viktig egenskap framöver.  Jag utmanade mig själv att lösa problemet i övningen, att söka efter en substräng för att sedan ta bort, där resten av strängen finns kvar.  Detta gick bra efter lite funderingar.</p>
+
+<p>Extra uppgiften i Marvin genomförde jag, där jag utnyttjade standardsvaren som IRC-Marvin använder i min egen Marvin.  Nyckelordnarna som ”lunch” och ”hej” resulterar i en slumpmässigt svar från Marvin, som är hämtade från olika arrayer beroende på nyckelordet.
+En text fil med autosvaren hade funkat lika bra också men det är bra att använda olika datastrukturer ibland.</p>
+</section>
+
+
+
+<!-- Redovisningstext för kmom -->
+<section>
+<h2>Kmom05</h2>
+<p>Denna omgång har jag jobbat med listor.  Liknande en array, en lista är ett sätt att lagra data, antingen lokalt eller hämtat från en extern fil.  En array används för större mängde data där kalkylationer kan behöver göras och en lista är ett flexibelt lagringsmetod för det flesta situationer med stöd för blandade data.  Att lagra data för vidare hantering är en viktig del av programmering, där jag har använt arrayer i JavaScript, PHP och Python förut, så konceptet kände jag igen.  Det kändes lättare att använda en lista i Python jämfört med andra språk, som tex att loopa med ’for item in shopping’  är väldigt tydligt vad den testar.</p>
+
+<p>Det finns väldigt många inbyggda funktioner för hantering av listor, som att använder ’pop()’ för att ta bort ett värde och returnera den, ’remove()’ som söker efter ett värde för att sedan ta bort och ’del’ som raderar ett värde på en specifik plats.  Att lägga till med ’append()’, sortera med ’sort()’ eller använda ’slice’ för att dela upp innehållet är också kända funktioner och metoder från andra programmeringsspråk.  Jag känner att efter ett tag så hittar man snabbare den funktion som behövs för uppgiften.</p>
+
+<p>Att jobba med filer för att lagra data kändes lättare och mer flexibelt än strängar.  Man kan blanda data typer med listor, det kan man inte med en sträng.  Man kan lättare ändra en lista, tex att ändra listans innehåll eller att lägga till mer data, eftersom en lista är mutable (föränderlig).   En sträng är immutable(oföränderlig) och då måste man skapa den igen för att ändra innehållet.</p>
+
+<p>Jag uppgraderade Marvin med list-hantering, en ryggsäck, som man kan skriva instruktioner frispråkigt för att visa väskans innehåll, plocka upp saker, ta bort saker eller tömma ryggsäcken helt.  En text fil läsas av vid uppstarten, genom JSON, för att skapa en lista.  Allt som händer med listan under programmet sparas lokalt och laddas tillbaks till text filen när Marvin programmet avslutas.</p>
+
+<p>Tidigare har jag läst från vanliga textfiler men nu har jag blivit introducerat till JSON(JavaScript Object Notation) strukturen.  Jag testade JSON i extrauppgiften och denna struktur känns lättare att jobba med och läsa men jag måste undersöka mer framöver för att kunna utnyttja den bättre.  Jag gjorde alla extra uppgifter förutom TicTacToe och krypteringen, som jag lägger åt sidan tills jag har mer tid över.  Annars tyckte jag att allting flöt på bra.  Det var inte särskilt svårt med listor, lite roligt faktisk, framför allt att jobba med externa filer.</p>
+</section>
+
+
+
+<!-- Redovisningstext för kmom -->
+<section>
+<h2>Kmom06</h2>
+<p>Förra gången jobbade vi med listor och nu har vi jobbat med Dictionaires och Tupler.  Jag har nu jobbat med tre olika sätt att lagra data.  I Marvin jobbade jag med listor för att lagra, lägga till och ta bort data.  Med dictionairies har jag nu skapat ett till program, Analyzer, för att lagra resultat från olika funktioner.  Man lagrar data i en nyckel/värde(key/value) grupp, där en nyckel används som namn och har ett kopplat värde.  Man kan då söka efter nyckelns namn för att returnera motsvarande värdet.  En Dictionary är inte i nummerordning utan en samling av kopplade data.  Tupler har jag jobbat med i labben för att skapa fasta listor, man kan inte ändra värdena men man kan söka genom index placeringen.  En Tupler är bra för att lagra data som ska inte ändras, tex att lagra månader.  Tupler är annars likt med listor.</p>
+
+<p>Så skilnaden med det tre data lagrings metoder är att en lista används för att lagra blandade data i en föränderlig sekvens och är i index ordning, en Tupler är likt en lista förutom att den lagrar data i en oföränderlig sekvens och en Dictionairy är en samling av nyckel/värde data utan ordning.  Listor och Tulper kan man söka genom index placering och en Dictionairy kan man söka efter nyckel namnet.</p>
+
+<p>Jag har nu skapat min Analyzer program, där jag har skapat möjligheten att välja den önskade text fil för att sedan göra en analysering på texten.  Man kan tex, kolla upp vilket ord som är mest frekvent eller göra all analysering samtidigt för att visa en analyserings rapport.  Man kan också ändra text filen som är aktuellt för analysering.  I programmet jobbade jag med listor för att läsa in textfilens rader och sedan lagra i en variabel eller en Dictionairy.  Med funktionerna word_frequency() och letter_frequency() var Dictionaries perfekt för att lagra analyseringens olika resultat som ett nyckel/värde par.  Sedan användande jag Dictionairies till funktionen all() för att först lagra alla resultat och sedan presentera tillsammans i en rapport.  Jag har använt Tulper för menyn eftersom den ska alltid vara samma och inte behöver ändras.</p>
+
+<p>Uppgiften gick bra där det mest tid gick åt att skapa funktionerna till word_frequency och letter_frequency.  Det som var mest lärorik var att testa alla metoder för att sedan välja den som är bäst till de olika uppdragen.</p>
+
+<p>Jag gjorde alla extra uppgifter i labben för att utmana mig mest och det gick bra.</p>
+</section>
+
+
+
+<!-- Redovisningstext för kmom -->
+<section>
+<h2>Kmom07-10</h2>
+<p>Nu har jag gjort klart examen try1 inom Python och det gick bra, 50 poäng av 60 totalt.</p>
+
+<p>För ”analyze_text” så skapade jag en meny som loopas genom tills man avslutar och en input används för att ta emot ett menyval.  Varje val är kopplat till en funktion som finns i en extern modul, vilket importeras vid uppstarten.  Varje funktion läses genom en textfil för att sedan loopa genom och skapa ett svar.  För första uppdraget, att hitta alla mellanrum, gick en loop genom texten och jämförde alla karaktärer för att hitta mellanrum,  och då läggs till 1 på en count variabel.  Samma system användes för nästa uppdrag, där jag vill testa om en karaktär ”isalpha()” och då a-z.  För sista uppdraget skapade jag en variabel till med specialtecken, där alla paragrafer loopas genom och jämföras med alla specialkaraktärer där mängd träffar för varje paragraf lagras i en lista, för att sedan sortera i nummerordning med högst först, där antal specialtecken i paragrafen med högst träffar returneras.</p>
+
+<p>För ”validate mobile” först skapade jag en variabel med namnet ”valid” med värden ”True”, sedan testas mobilnumret för att se om det är giltigt.  Så fort en test misslyckas ändras ”valid” till ”False”.  Klarar den alla tester så är variabeln fortfarande ”True”.  Första testet var om den är rätt längd, sedan delade jag upp numret i olika delar, där första delen jämfördes med en lista av olika giltiga start siffror.  Resterande siffror testades i olika omgångar för att se om varje position är giltig, tex att det finns mellanrum på rätt ställe och att det finns
+en ”-” efter de 3 första siffrorna.  Jag testade så att alla karaktärerna var siffror också och till slut returneras värdet på ”valid”.</p>
+
+<p>För ”verify_credit_card” så först skapade jag två variabler, en för sista siffran i numret(kontroll siffra) och en ”valid=False” variabel.  Sedan gjorde jag olika tester och mutationer på resterande siffror som tex en loop som testar alla positioner för att fördubbla varannan siffra och returnera en ny lista med det nya värdena.  Sedan alla värden över 9 i den nya listan gjorde jag tvärsummering där jag splittrade sista siffran genom modulus ”%10” för att sedan summera ihop med bas siffran.  Alla siffror var sedan adderade och resultet multiplicerat med 9.  Resultatens sista siffra jämfördes sedan med kontroll siffran för att se om det matchar. Bara om det matchar så ändras ”valid” till ”True”.  Till slut returneras värdet på ”valid”.</p>
+
+<p>För ”find_difference” så jämfördes två listor med strängar, där jag skapade en loop för att hitta icke matchande strängar mellan de två listorna, där alla strängar som finns enbart i en av listorna, läggs till i en ny lista, men bara om det inte redan finns inlagt.  Jag konverterade först alla strängar i både listor till små bokstäver med lower() , sen jämförde jag lista1 med lista2 och sedan tvärtom för att bygga en ny lista med ej matchande strängar, vilket returneras i bokstavsordning med ”sorted()”.</p>
+
+<p>För ”validate_date_time” så importerade jag ”datetime” för att sedan loopa genom varje sträng från en lista med alla linjer, där jag var tvungen att ta bort alla special tecken med rstrip().  Resulterande sträng kunde jag sedan testa om det var ett giltigt datum och tid.  Jag skapade en format variabel med önskad tid och datum format, för att sedan jämföra strängen med.  Med varje match så byggdes det upp en lista med resultat och till slut returneras listan med ”,”.join().  Denna övning gjorde jag efter tiden gick ut, jag lämnade in examen (exam seal try1) med 4 av 5 uppgifter avklarade (50/60 poäng) och korrekt inom tidsramen.  Jag skickade in examen igen (exam seal try1) med den sista uppgiften avklarad och korrekt under kvällen.  Förklaring kommer nedan.</p>
+
+<p>Till slut så gick examen bra men jag förlorade mycket tid i början på grund av stress och panik.  Hittills under kursen har jag inte behövt tänka på tid och då har jag varit väldigt lugn under varje kursmoment.  Jag är en person som vill ta tid i mitt arbete för att skapa den bästa möjliga resultatet, gärna med det lilla extra, då trivs jag bäst också.  Så fort examen började tänkte jag på klockan och redan efter fem minuter fick jag panik och hade svårt att läsa frågorna ordentligt samt tänka strategiskt.  Jag förlorade mycket tid på detta till slut och hade därför för lite tid över till sista frågan.  Efter ett par timmar började jag att känna mig lugnare och då flöt det på bra.
+Jag lägger mycket press på mig själv också vilket gör saken svårare.  Nästa gång ska jag prestera bättre och snabbare hoppas jag.</p>
+
+<p>Annars kände jag att både examen och varje kursmoment har varit på en lagom svårt nivå, där det roligaste var att bygga min Marvin program.  Jag har gjort alla extrauppgifter och har fått full poäng i varje lab prov, det bevisar att jag klarar mig bra och tycker det är roligt.  Ni har skrivit bra instruktioner under varje kursmomenten och förklarat tydligt vad man behöver göra.  Både YouTube videor och klassrums inspelningar har varit informativa och genomtänkta.  Jag trivs på kursen 100% och ser fram emot resten av programmet.  På en skala av 1-10 så ger jag kursen en 8.</p>
+</section>
+
+
+
+</article>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

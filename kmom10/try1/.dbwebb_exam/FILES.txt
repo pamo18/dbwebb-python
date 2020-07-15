@@ -1,0 +1,24 @@
+.
+total 48
+drwxr-xr-x  4 Paul  staff   128 Oct 30 22:08 .dbwebb
+drwxr-xr-x  5 Paul  staff   160 Oct 30 22:08 .dbwebb_exam
+drwxr-xr-x  5 Paul  staff   160 Oct 30 22:08 __pycache__
+-rw-r--r--@ 1 Paul  staff  1179 Oct 30 16:28 analyze_functions.py
+-rw-r--r--  1 Paul  staff  6914 Oct 30 11:30 assignments.md
+-rw-r--r--@ 1 Paul  staff  1347 Oct 30 22:07 date_time_functions.py
+-rw-r--r--  1 Paul  staff  3346 Oct 30 21:49 exam.py
+-rw-r--r--  1 Paul  staff  1076 Oct 30 11:30 value-of-time.txt
+./.dbwebb_exam
+total 24
+-rw-r--r--  1 Paul  staff  504 Oct 30 22:08 FILES.txt
+-rw-r--r--  1 Paul  staff  732 Oct 30 22:08 RECEIPT.md
+-rw-r--r--  1 Paul  staff   53 Oct 30 22:08 RECEIPT.md.sha1
+./__pycache__
+total 24
+-rw-r--r--  1 Paul  staff  1166 Oct 30 16:28 analyze_functions.cpython-37.pyc
+-rw-r--r--  1 Paul  staff  1167 Oct 30 22:08 date_time_functions.cpython-37.pyc
+-rw-r--r--  1 Paul  staff  2872 Oct 30 21:49 exam.cpython-37.pyc
+./.dbwebb
+total 24
+-rwxr-xr-x  1 Paul  staff  2358 Oct 30 21:42 correct.bash
+-rw-r--r--  1 Paul  staff  4995 Oct 30 11:30 test_dbwebb.py
